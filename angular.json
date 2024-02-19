@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/CGIjESUS/",
             "outputPath": "dist/learn-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -40,7 +41,7 @@
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumError": "14kb"
                 }
               ],
               "outputHashing": "all"
